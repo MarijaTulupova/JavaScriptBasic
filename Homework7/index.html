@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic table</title>
+  </head>
+  <body>
+    <h1>Dynamic table</h1>
+    <label for="rows">How many Rows should the table have?</label>
+    <input type="number" name="rows" id="rowsNumber" min="1" required />
+    <br />
+    <label for="columns">How many Colums should the table have?</label>
+    <input type="number" name="columns" id="colsNumber" min="1" required />
+    <br />
+    <button id="createBtn">Create Table</button>
+    <div id="dynamicTable">
+      <table border="1">
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

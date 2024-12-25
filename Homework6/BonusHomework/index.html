@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><b>Recipe</b></legend>
+      <label for="recipe">Name of the recipe:</label>
+      <input
+        type="text"
+        name="recipe"
+        id="recipe"
+        required
+        placeholder="Recipe name"
+      />
+      <br />
+      <label for="number">How many ingredients do we need?</label>
+      <input type="number" name="number" id="number" min="1" required />
+      <br />
+      <label for="text">Ingredients(enter one per line):</label>
+      <br />
+      <textarea
+        id="text"
+        name="text"
+        cols="15"
+        rows="5"
+        placeholder="Enter ingredients, one per line"
+      ></textarea>
+      <br />
+      <button id="saveBtn">Save</button>
+    </fieldset>
+    <h2 id="nameOfRecipe"></h2>
+    <p id="ingredientCount"></p>
+    <h3></h3>
+    <ul id="ingredientsList"></ul>
+    <script src="./script.js"></script>
+  </body>
+</html>
