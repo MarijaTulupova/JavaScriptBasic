@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  resize: none;
+  color: white;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+  background-color: #303030;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgb(255, 0, 0);
+  margin-bottom: 20px;
+  color: white;
+  font-family: Handlee, sans-serif;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  background-color: #222;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  overflow: auto;
+  font-family: Quicksand, sans-serif;
+  resize: none;
+}
+
+#wordsBox {
+  cursor: default;
+}
+
+::placeholder {
+  color: white;
+}

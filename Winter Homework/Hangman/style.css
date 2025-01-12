@@ -1,0 +1,120 @@
+body {
+  margin-top: 120px;
+  background-color: #7f6a83;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+  height: 100%;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.containerButtons {
+  display: none;
+}
+
+.gameContainer {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+}
+.categoryContainer {
+  margin-top: 70px;
+}
+
+.winnerContainer {
+  display: none;
+}
+
+canvas {
+  color: white;
+  border: white dashed 2px;
+  padding: 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+.hiddenWord {
+  display: inline-block;
+  margin: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 20px;
+  text-align: center;
+}
+
+.alphabetButton {
+  background: #7f6a83;
+  border-radius: 5px;
+  border: solid 1px white;
+  color: white;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px 10px 0;
+  outline: none;
+  cursor: pointer;
+}
+.alphabetButton:hover {
+  transition: 0.5s;
+  background: white;
+  border: solid 1px white;
+  color: #7f6a83;
+}
+.alphabetButton:disabled {
+  background-color: #d3d3d3;
+  color: #7f6a83;
+  border: solid 1px #d3d3d3;
+}
+
+.selected {
+  background: white;
+  border: solid 1px white;
+  color: #7f6a83;
+}
+
+.btn-2 {
+  border-radius: 10px;
+  background: #7f6a83;
+  color: white;
+  border: solid 1px white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 10px 10px;
+  width: 180px;
+  height: 50px;
+  margin: 0 10px 10px 0;
+
+  outline: none;
+}
+.btn-2:hover {
+  transition: 0.5s;
+  background: white;
+  border: solid 1px white;
+  color: #7f6a83;
+}
+.hangmanSquare {
+  display: none;
+}
+.gameOver {
+  display: none;
+}
